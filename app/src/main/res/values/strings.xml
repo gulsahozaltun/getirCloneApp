@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">getir</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profil_string">Merhaba,
+    Nişantaşı Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim. Yazılıma ilk başladığım andan itibaren mobil uygulama
+         alanında uzmanlaşmak istediğimi fark ettim ve bu alanda ilerlemek için bazı eğitimler aldım.
+    Up School ile birlikte Kotlin ile tanışmış oldum ve bu ilgi alanımmı geliştirmem için güzel bir teknoloji hayatıma girdi.
+        Bir yazılım şirketinde Microsoft Dynamics üzerine staj yapıyor ve zamanımın büyük kısmını Android Development öğrenerek geçiriyorum.
+    </string>
+    <string name="hobi_string">Doğa fotoğrafları çekmek ve yeni yerler keşfetmek en büyük tutkularımdan birisi.</string>
+</resources>

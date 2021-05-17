@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.example.getircloneapp.fragment.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" >
+        <action
+            android:id="@+id/detayGecisAction"
+            app:destination="@id/detaySayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detaySayfaFragment"
+        android:name="com.example.getircloneapp.fragment.DetaySayfaFragment"
+        android:label="fragment_detay_sayfa"
+        tools:layout="@layout/fragment_detay_sayfa" >
+        <argument
+            android:name="gelenNesne"
+            app:argType="com.example.getircloneapp.entity.KategoriEntity" />
+    </fragment>
+    <fragment
+        android:id="@+id/profilFragment2"
+        android:name="com.example.getircloneapp.fragment.ProfilFragment"
+        android:label="fragment_prrofil"
+        tools:layout="@layout/fragment_prrofil" />
+    <fragment
+        android:id="@+id/linkFragment"
+        android:name="com.example.getircloneapp.fragment.LinkFragment"
+        android:label="fragment_link"
+        tools:layout="@layout/fragment_link" />
+    <fragment
+        android:id="@+id/hobiFragment"
+        android:name="com.example.getircloneapp.fragment.HobiFragment"
+        android:label="fragment_hobi"
+        tools:layout="@layout/fragment_hobi" />
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.getircloneapp.fragment.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" />
+</navigation>

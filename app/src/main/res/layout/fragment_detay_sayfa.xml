@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="detayNesne"
+            type="com.example.getircloneapp.entity.KategoriEntity" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_app"
+        tools:context=".fragment.DetaySayfaFragment">
+
+
+        <TextView
+            android:id="@+id/kategori_detay_adi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@color/gray_app"
+            android:text="@{detayNesne.kategori_adi}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kategori_detay_resim" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/kategori_detay_resim"
+            android:layout_width="167dp"
+            android:layout_height="172dp"
+            android:layout_marginTop="82dp"
+            android:src="@drawable/sebze"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/shapeImage" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/anasayfaFragment"
+        android:icon="@drawable/home"
+        android:title="Getir"
+        />
+    <item
+        android:id="@+id/linkFragment"
+        android:icon="@drawable/search"
+        android:title="İletişim" />
+    <item
+        android:id="@+id/hobiFragment"
+        android:icon="@drawable/view_carousel"
+        android:title="Hobilerim" />
+    <item
+        android:id="@+id/profilFragment2"
+        android:icon="@drawable/person"
+        android:title="Hakkımda" />
+    <item
+        android:id="@+id/blankFragment"
+        android:icon="@drawable/giftcard"
+        android:title="Blank" />
+</menu>
